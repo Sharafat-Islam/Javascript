@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -17,38 +17,60 @@
 <!-- =================================================================================================================== -->
 
 <body>
-    <div class="min-h-screen bg-tri">
+    <div class="min-h-screen bg-[#F5FBE6] dark:bg-bg">
         <div class="flex items-center justify-center">
-            <h1 class="text-[120px] text-bg uppercase tracking-[5px] pt-40 leading-none font-Anton font-bold mr-10">
-                Javascript</h1>
-            <h2 class="text-[120px] text-bg uppercase tracking-[5px] pt-40 leading-none font-Anton font-bold mr-10">Class
-            </h2>
-            <h2
-                class="counter text-[120px] text-main uppercase tracking-[5px] pt-40 leading-none text-center font-Anton font-bold">
-                3</h2>
+            <div id="textOne"
+                class="flex text-[120px] text-bg dark:text-tri uppercase tracking-[5px] mt-40 leading-none font-Anton font-bold ">
+                <p class="hover:blur-[5px]">J</p>
+                <p class="hover:blur-[5px]">A</p>
+                <P class="hover:blur-[5px]">V</P>
+                <P class="hover:blur-[5px]">A</P>
+                <P class="hover:blur-[5px]">S</P>
+                <P class="hover:blur-[5px]">C</P>
+                <P class="hover:blur-[5px]">R</P>
+                <P class="hover:blur-[5px]">I</P>
+                <P class="hover:blur-[5px]">P</P>
+                <P class="hover:blur-[5px] mr-10">T</P>
+            </div>
+            <div id="textTwo"
+                class="flex text-[120px] text-bg dark:text-tri uppercase tracking-[5px] mt-40 leading-none font-Anton font-bold mr-10">
+                <p class="hover:blur-[5px]">C</p>
+                <p class="hover:blur-[5px]">L</p>
+                <P class="hover:blur-[5px]">A</P>
+                <P class="hover:blur-[5px]">S</P>
+                <P class="hover:blur-[5px]">S</P>
+            </div>
+            <div
+                class="text-[120px] text-main uppercase tracking-[5px] mt-40 leading-none text-center font-Anton font-bold">
+                <h2 class="counter hover:blur-[2px]">
+                    25</h2>
+            </div>
         </div>
-        <h3 class="text-[120px] text-bg uppercase tracking-[5px] pb-20 leading-none text-center font-Anton font-bold">
-            Homework.
-        </h3>
-        <div class="flex items-center justify-center mx-2.5 ">
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">Variables
-            </a>
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">if, else, else if
-            </a>
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">Forloops
-            </a>
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">Tilda
-            </a>
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">Objects
-            </a>
-            <a href="#"
-                class="inline-block px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow font-Anton font-semibold mr-10">Arrays
-            </a>
+        <div id="textThree"
+            class="flex text-[120px] text-bg dark:text-tri uppercase tracking-[5px] pb-20 leading-none items-center justify-center font-Anton font-bold">
+            <p class="hover:blur-[5px]">H</p>
+            <p class="hover:blur-[5px]">O</p>
+            <P class="hover:blur-[5px]">M</P>
+            <P class="hover:blur-[5px]">E</P>
+            <P class="hover:blur-[5px]">W</P>
+            <P class="hover:blur-[5px]">O</P>
+            <P class="hover:blur-[5px]">R</P>
+            <P class="hover:blur-[5px]">K</P>
+            <P class="hover:blur-[5px]">.</P>
+        </div>
+        <div class="flex items-center justify-center mx-2.5">
+            <button id="darkBtn"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Dark</button>
+            <button id="lightBtn"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Light</button>
+            <button id="bothBtn"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Dark/Light</button>
+            <button id="green"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Green</button>
+            <button id="blue"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Blue</button>
+            <button id="red"
+                class="inline-block cursor-pointer dark:border-white dark:text-tri px-2.5 py-2 text-bg rounded-xl border tracking-[1.1px] uppercase text-xl duration-500 hover:bg-main hover:shadow-xl hover:scale-102 font-Anton font-semibold mr-10">Red</button>
         </div>
     </div>
     <script src="JS/jquery-1.12.4.min.js"></script>
